@@ -1,1 +1,24 @@
 @CHARSET "UTF-8";
+
+p {
+	font-family: Roboto, "Lucina Sans", "Liberation Sans", Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: Italianno
+}
+
+h1:first-letter {
+	font-size: 175%;
+	color: orange;
+}
+
+h2:first-letter {
+	font-size: 150%;
+	color: orange;
+}
+
+h3:first-letter {
+	font-size: 125%;
+	color: orange;
+}
