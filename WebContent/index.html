@@ -1,13 +1,21 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
 <meta charset="UTF-8">
+
 <title>Luciano a Fine Italian Restaurant</title>
+
 <link
 	href='https://fonts.googleapis.com/css?family=Gruppo|Italianno|Dancing+Script|Roboto:400,400italic,300italic,300'
 	rel='stylesheet' type='text/css'>
+
 <link rel="stylesheet" type="text/css" href="luciano.css">
+
 </head>
+
 <body>
 
 	<div id="banner">
@@ -18,18 +26,18 @@
 			<h2>a fine italian restaurant</h2>
 		</hgroup>
 
-		<p>A Schrader Owned & Operated Restaurant - Serving Huntsville
+		<p>A Schrader Owned &amp; Operated Restaurant - Serving Huntsville
 			Since 1963</p>
 
 	</div>
 
-	<div id="slideshow">
-		<img class="images" src="media/mussels.png"> <img class="images"
-			src="media/filet.png"> <img class="images"
-			src="media/table1.png"> <img class="images"
-			src="media/martini_dessert.png"> <img class="images"
-			src="media/chocolate_cake.png"> <img class="images"
-			src="media/scallops.png"> <img class="images"
+	<div>
+		<img class="slideshow" src="media/mussels.png"> <img class="slideshow"
+			src="media/filet.png"> <img class="slideshow"
+			src="media/table1.png"> <img class="slideshow"
+			src="media/martini_dessert.png"> <img class="slideshow"
+			src="media/chocolate_cake.png"> <img class="slideshow"
+			src="media/scallops.png"> <img class="slideshow"
 			src="media/lamb.png">
 		<script>
 			var myIndex = 0;
@@ -37,7 +45,7 @@
 
 			function carousel() {
 				var i;
-				var x = document.getElementsByClassName("images");
+				var x = document.getElementsByClassName("slideshow");
 				for (i = 0; i < x.length; i++) {
 					x[i].style.display = "none";
 				}
@@ -51,7 +59,7 @@
 		</script>
 	</div>
 
-	<div class="pagetext">
+	<div id="pagetext">
 		<h1>Welcome to Luciano</h1>
 
 		<p>Buonasera, benvenuti a Luciano!</p>
