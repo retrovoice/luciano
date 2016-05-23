@@ -9,7 +9,8 @@ body {
 	background: -o-linear-gradient(top, #419CAB 0%, #119C1B 2%);
 	background: -ms-linear-gradient(top, #419CAB 0%, #119C1B 2%);
 	background: linear-gradient(top, #419CAB 0%, #119C1B 2%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419CAB', endColorstr='#119C1B',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419CAB',
+		endColorstr='#119C1B', GradientType=0);
 	background-repeat: repeat-x;
 	background-color: 119C1B; /* Old browsers */
 	margin: 0;
@@ -21,6 +22,7 @@ body {
 	font-size: x-small;
 	float: left;
 	margin: 1em;
+	color: white;
 }
 
 .hours {
@@ -29,39 +31,134 @@ body {
 	font-size: x-small;
 	float: right;
 	margin: 1em;
+	color: white;
 }
 
-#pagetext p {
+#content img {
+	float: right;
+	margin: 6px 12px;
+}
+
+ul.nav {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: white;
+	width: 100%;
+}
+
+li.nav {
+	display: block;
+	float: left;
+}
+
+a.nav {
+	display: block;
+	font-family: Italianno;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	padding: 5px 1em;
+	color: black;
+	background-color: white;
+}
+
+a.home {
+	font-family: Gruppo;
+	font-size: small;
+	color: white;
+	margin: 2px;
+}
+/* Styles for home page */
+
+p.homepage {
 	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
 		sans-serif;
-	font-size: 120%;
+	text-align: center;
+	font-weight: bold;
+	margin: 1em;
 }
 
-#pagetext h1 {
-	font-family: Italianno
+h1.homepage {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	text-align: center;
 }
 
-#pagetext h2 {
-	font-family: Italianno
+h2.homepage {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	text-align: center;
+	margin: 1em;
 }
 
-#pagetext h3 {
-	font-family: Italianno
+h3.homepage {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	text-align: center;
+	margin: 1em;
 }
 
-#pagetext h1:first-letter {
+h1.homepage:first-letter {
 	font-size: 175%;
-	color: orange;
+	color: white;
 }
 
-#pagetext h2:first-letter {
+h2.homepage:first-letter {
 	font-size: 150%;
-	color: orange;
+	color: white;
 }
 
-#pagetext h3:first-letter {
+h3.homepage:first-letter {
 	font-size: 125%;
-	color: orange;
+	color: white;
+}
+
+/* Styles for link pages */
+p.pagetext {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	text-align: justify;
+	font-weight: bold;
+	margin: 1em;
+}
+
+h1.pagetext {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	text-align: center;
+}
+
+h2.pagetext {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	text-align: left;
+	margin: 1em;
+}
+
+h3.pagetext {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	text-align: left;
+	margin: 1em;
+}
+
+h1.pagetext:first-letter {
+	font-size: 175%;
+	color: white;
+}
+
+h2.pagetext:first-letter {
+	font-size: 150%;
+	color: white;
+}
+
+h3.pagetext:first-letter {
+	font-size: 125%;
+	color: white;
 }
 
 /* styles for the banner section */
@@ -78,7 +175,7 @@ body {
 	margin-top: -10px;
 }
 
- p.subtitle2 {
+p.subtitle2 {
 	font-family: "Dancing Script", Times, serif;
 	font-size: 120%;
 	color: white;
@@ -92,7 +189,6 @@ body {
 }
 
 /* styles for the slideshow section */
-
 img.slideshow {
 	width: 100%;
 }
