@@ -37,21 +37,32 @@ body {
 #content img {
 	float: right;
 	margin: 6px 12px;
+	/* clear: right; */
 }
 
 ul.nav {
 	display: block;
 	list-style-type: none;
-	margin: 0;
+	margin: 0 0 6px 0;
 	padding: 0;
 	float: left;
 	background-color: white;
 	width: 100%;
 }
 
+ul.cal {
+	
+}
+
 li.nav {
 	display: block;
 	float: left;
+}
+
+li.cal {
+	font-family: Gruppo;
+	font-weight: bold;
+	color: white;
 }
 
 a.nav {
@@ -66,12 +77,22 @@ a.nav {
 	background-color: white;
 }
 
-a.home {
-	font-family: Gruppo;
-	font-size: small;
-	color: white;
-	margin: 2px;
+a.faint {
+	display: block;
+	font-family: Italianno;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	padding: 5px 1em;
+	color: black;
+	background-color: white;
 }
+
+a:link.faint {
+	color: silver;
+}
+
 /* Styles for home page */
 
 p.homepage {
@@ -136,7 +157,7 @@ h2.pagetext {
 	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
 		sans-serif;
 	text-align: left;
-	margin: 1em;
+	margin: 1em 0 0 1em;
 	clear: both;
 }
 
@@ -144,7 +165,7 @@ h3.pagetext {
 	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
 		sans-serif;
 	text-align: left;
-	margin: 1em;
+	margin: 0 0 0 1.5em;
 }
 
 h1.pagetext:first-letter {
