@@ -137,6 +137,7 @@ h2.pagetext {
 		sans-serif;
 	text-align: left;
 	margin: 1em;
+	clear: both;
 }
 
 h3.pagetext {
@@ -172,19 +173,30 @@ h3.pagetext:first-letter {
 	font-size: 1.5em;
 	letter-spacing: .2em;
 	color: #ffffff;
-	margin-top: -10px;
+	margin-top: -1em;
+}
+
+#banner h3 {
+	font-family: Gruppo, "Lucina Sans", "Liberation Sans", Verdana,
+		sans-serif;
+	font-size: 1em;
+	letter-spacing: .2em;
+	color: #ffffff;
+	margin-top: -1em;
 }
 
 p.subtitle2 {
 	font-family: "Dancing Script", Times, serif;
 	font-size: 120%;
+	text-align: center;
 	color: white;
 	padding: 2px;
 	margin: 2em;
+	clear: both;
 	border-top-style: solid;
-	border-bottom-style: solid;
+/*	border-bottom-style: solid; */
 	border-top-width: 2px;
-	border-bottom-width: 2px;
+/*	border-bottom-width: 2px; */
 	border-color: white;
 }
 
