@@ -126,6 +126,10 @@ li.vinosub{
 	padding: 0 0 0 2em;
 }
 
+img.vino{
+	float: none;
+}
+
 /* Styles for page contents */
 
 p.centertext {
